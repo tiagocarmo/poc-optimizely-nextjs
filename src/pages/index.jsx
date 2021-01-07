@@ -23,7 +23,7 @@ const Index = () => {
 
   return (
     <>
-      <p><strong><a href='https://app.optimizely.com/v2/projects/19589593569/experiments' target='_blank'>Experiments</a></strong>: <a href='https://app.optimizely.com/v2/projects/19589593569/experiments/19562344309/variations' target='_blank'>layout test</a> (layouts_test)</p>
+      <p><strong><a href='https://app.optimizely.com/v2/projects/xxxxxxxxxxx/experiments' target='_blank'>Experiments</a></strong>: <a href='https://app.optimizely.com/v2/projects/xxxxxxxxxxx/experiments/xxxxxxxxxx/variations' target='_blank'>layout test</a> (layouts_test)</p>
       <p><strong>Environments</strong>: Development</p>
       <OptimizelyProvider optimizely={optimizely} user={user}>
         <OptimizelyFeature feature='layouts'>
